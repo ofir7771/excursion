@@ -6,11 +6,24 @@
     <link href=".\resources\css\style.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-    <h1 class="main-header">Discover hidden places in the world around you</h1>
-    <p class="download-link">Download Excursion (Coming soon)</p>
-    <video autoplay>
-      <source src="resources/Images-videos/excursion-video.mp4" type="video/mp4"></video>
-      <!-- from support the guy recommended inserting the video this way https://www.w3schools.com/tags/att_video_autoplay.asp-->
-
+    <div class="header"><!--This is the header of the page-->
+      <h1 class="main-header">Discover hidden places in the world around you</h1>
+    </div>
+    <div class="main"> <!--This is the main content of the page-->
+      <p class="download-link">Download Excursion (Coming soon)</p>
+      <video autoplay muted loop>
+        <source src="resources/Images-videos/excursion-video.mp4" type="video/mp4"> alt="short video with scenic views"</video>
+        <!-- from support the guy recommended inserting the video this way https://www.w3schools.com/tags/att_video_autoplay.asp-->
+      <h2 class="subheader">Your personel travel guide</h2>
+      <p>Excursion remembers places you like, and recommends new points of interest around you</p>
+      <img src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/excursion/images/camp.jpg" alt="camping image"/>
+    </div>
+    <!--Here starts the footer of the page-->
+    <div class="footer"
+      <img src="https://s3.amazonaws.com/codecademy-content/programs/freelance-one/excursion/images/phone.png" alt="cellphone logo"/>
+      <h2 class="subheader">Coming Soon for iPhone and Android</h2>
+      <p class="download-link">Download Excursion (Coming soon)</p>
+      <p style="text-align: right">&copy excursion</p>
+    </div>
   </body>
 </html>
